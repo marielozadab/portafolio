@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+section{
+    padding-top: 60px;
+}
+
+.texto-nav {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#acerca{
+    display: none;
+}
+@media (min-width:768px) {
+    #acerca {
+        display: block;
+    } 
+} 
+
+.botones {
+    margin: auto;
+} 
+.foto-header {
+    background-image: url('../img/Foto-pagina.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;       
+  height: 40rem;
+  text-align: right;
+}
+
+.texto-header {
+    font-weight: 700;
+    margin: auto;
+    padding-top: 200px;
+    padding-right: 200px;
+    font-size: 4rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.subtexto {
+    padding-right: 200px;
+    font-size: 2rem;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.cuerpo {
+    font-family: 'Quattrocento Sans', sans-serif;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.acerca {
+    font-family: 'Quattrocento Sans', sans-serif;
+    padding-top: 2rem;
+    font-weight: 700;
+    margin: auto;
+    text-align: center;
+}
+
+.trabajos {
+    display: inline-block;
+    align-content: center;
+    height: 240px;
+
+}
+
+
+
+.trabajos-otros {
+    margin: auto;
+}
+
+.boton-trabajos {
+    height: 50%;;
+}
+
+.titulos {
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-top: 1rem;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.redes {
+    height: 5rem;
+    background-color: black;
+}
+
+#footer {
+    background: #000f08;
+    color: #ffffff;
+    font-size: 26px;
+}
+#footer a {
+    color: #FFF;
+}
